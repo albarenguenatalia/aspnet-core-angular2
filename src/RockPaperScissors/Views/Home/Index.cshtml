@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Game of Drones";
+}
+
+@section styles
+{
+  <link href="~/css/site.css" rel="stylesheet" />
+}
+
+<div id="nav-separator"></div>
+
+<game-of-drones-app>
+    <div class="loading">Loading</div>
+</game-of-drones-app>
+
+@section customScript
+{
+    System.import('app').catch(console.log.bind(console));
+}

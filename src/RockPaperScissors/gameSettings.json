@@ -1,0 +1,18 @@
+﻿{
+  "wins": 3,
+  "moves": [
+
+    {
+      "name": "paper",
+      "beats": "rock"
+    },
+    {
+      "name": "rock",
+      "beats": "scissors"
+    },
+    {
+      "name": "scissors",
+      "beats": "paper"
+    }
+  ]
+}
